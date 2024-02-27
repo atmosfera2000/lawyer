@@ -1,0 +1,33 @@
+.btn {    
+    padding: 16px 24px;
+    outline: none;    
+    text-align: center;   
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    border: 2px solid #4F8FF0;
+    background: #4F8FF0;
+    color: #FFF;
+}
+
+.btn-secondary {
+    border: 2px solid #E6E6E6;
+    background: #E6E6E6;
+    color: #222;
+}
+
+.btn-outline-primary {
+    border: 2px solid #4F8FF0;
+    background: #FFF;
+    color: #4F8FF0;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #E6E6E6;
+    background: #FFF;
+    color: #222;
+}

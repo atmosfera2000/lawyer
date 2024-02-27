@@ -1,0 +1,75 @@
+.header {    
+    position: relative;
+    height: 486px;
+    padding: 142px 0 60px;
+    background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/sm/header-bg.webp") top left/cover no-repeat;    
+       
+    @media (min-resolution: 2dppx) {      
+        background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/sm/header-bg-2x.webp") top left/cover no-repeat;    
+    
+    }
+
+    @media (min-resolution: 3dppx) {       
+        background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/sm/header-bg-3x.webp") top left/cover no-repeat;    
+    }    
+
+    &-bottom {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        padding-bottom: 24px;
+    }
+};
+
+.header-btn {
+    padding-top: 32px;
+    text-align: center;
+}
+
+@include media-breakpoint-up(md) {
+    .header {
+        height: 529px;
+        padding: 148px 0 100px;        
+        background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/md/header-bg-md.webp") top center/cover no-repeat;    
+    
+        @media (min-resolution: 2dppx) {
+            background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/md/header-bg-md-2x.webp") top center/cover no-repeat;    
+        }
+        @media (min-resolution: 3dppx) {
+            background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/md/header-bg-md-3x.webp") top center/cover no-repeat;
+        }
+
+        &-bottom {
+            padding-bottom: 36px;
+        }
+    }
+
+    .header-btn {
+        padding-top: 46px;
+    }
+}
+
+@include media-breakpoint-up(xl) { 
+    .header {
+        height: 820px;
+        padding: 260px 0 268px;        
+        background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/xxl/header-bg-xxl.webp") top center/cover no-repeat;
+        
+        @media (min-resolution: 2dppx) {
+            background: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("img/header-bg/xxl/header-bg-xxl-2x.webp") top center/cover no-repeat;
+        }
+
+        &-nav {
+            padding: 20px 0 28px;
+        }
+    }
+
+    .header-btn {
+        padding-top: 48px;
+    }
+}
+
+
+
