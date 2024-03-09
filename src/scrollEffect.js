@@ -10,7 +10,7 @@ export default function scrollEffect(elements, animateClass) {
     }
 
     const options = {
-        threshold: 0.5
+        threshold: 0.1
     }
 
 
