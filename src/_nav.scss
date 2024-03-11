@@ -28,7 +28,8 @@
 
     .nav-link {
         color: #fff;
-        text-decoration: none;    
+        text-decoration: none;
+        transition: $nav-link-transition;    
     
         &:hover {
             color: #4F8FF0;
@@ -92,10 +93,11 @@
     .nav-link {
         color: #FFF;
         text-decoration: none;
+        transition: $nav-link-transition;
 
         &:hover {
             color: #4F8FF0;
-            text-decoration: underline;
+            //text-decoration: underline;
         }
     }
 }
@@ -196,6 +198,7 @@
         font-weight: 700;
         line-height: 150%; 
         text-decoration: none;
+        transition: $nav-link-transition;
 
         &:hover {
             color: #4F8FF0;
@@ -223,6 +226,7 @@
     .nav-link {
         color: #fff;
         text-decoration: none;
+        transition: $nav-link-transition;
 
         &:hover {
             color: #4F8FF0;
